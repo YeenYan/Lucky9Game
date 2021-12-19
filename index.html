@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky 9 Game</title>
+    <link rel="stylesheet" href="./src/css/main.css">
+    <!-- <link href="./vivify-master/vivify.min.css" rel="stylesheet" type="text/css"/> -->
+    <script type="text/javascript" src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title unfold">Lucky 9 Game</h1>
+        <div class="ribbon__container">
+            <img src="./images/ribbon.svg" alt="Ribbon" class="ribbon__image">
+            <h2 class="ribbon__container-text">HELLO THERE!</h2>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+
+            <section class="cards-container section">
+                <div class="cards">
+                     <!-- for firstCard Deck -->
+                    <div class="cards-item">
+                        <p class="cards-item-text">1ST CARD</p>
+                        <div class="cards-item-deck first-deck">
+                            <!-- ============================================================ -->
+                            <img src="./images/cards/hearts/a_hearts.svg" alt="A of Hearts" class="card-image first-card" id="first-aHeart">
+                            <img src="./images/cards/hearts/2_hearts.svg" alt="2 of Hearts" class="card-image first-card" id="first-twoHeart">
+                            <img src="./images/cards/hearts/3_hearts.svg" alt="3 of Hearts" class="card-image first-card" id="first-threeHeart">
+                            <img src="./images/cards/hearts/4_hearts.svg" alt="4 of Hearts" class="card-image first-card" id="first-fourHeart">
+                            <img src="./images/cards/hearts/5_hearts.svg" alt="5 of Hearts" class="card-image first-card" id="first-fiveHeart">
+                            <img src="./images/cards/hearts/6_hearts.svg" alt="6 of Hearts" class="card-image first-card" id="first-sixHeart">
+                            <img src="./images/cards/hearts/7_hearts.svg" alt="7 of Hearts" class="card-image first-card" id="first-sevenHeart">
+                            <img src="./images/cards/hearts/8_hearts.svg" alt="8 of Hearts" class="card-image first-card" id="first-eightHeart">
+                            <img src="./images/cards/hearts/9_hearts.svg" alt="9 of Hearts" class="card-image first-card" id="first-nineHeart">
+                            <img src="./images/cards/hearts/10_hearts.svg" alt="10 of Hearts" class="card-image first-card" id="first-tenHeart">
+
+                            <!-- ============================================================ -->
+                            <img src="./images/cards/diamonds/a_diamonds.svg" alt="A of Diamonds" class="card-image first-card" id="first-aDiamond">
+                            <img src="./images/cards/diamonds/2_diamonds.svg" alt="2 of Diamonds" class="card-image first-card" id="first-twoDiamond">
+                            <img src="./images/cards/diamonds/3_diamonds.svg" alt="3 of Diamonds" class="card-image first-card" id="first-threeDiamond">
+                            <img src="./images/cards/diamonds/4_diamonds.svg" alt="4 of Diamonds" class="card-image first-card" id="first-fourDiamond">
+                            <img src="./images/cards/diamonds/5_diamonds.svg" alt="5 of Diamonds" class="card-image first-card" id="first-fiveDiamond">
+                            <img src="./images/cards/diamonds/6_diamonds.svg" alt="6 of Diamonds" class="card-image first-card" id="first-sixDiamond">
+                            <img src="./images/cards/diamonds/7_diamonds.svg" alt="7 of Diamonds" class="card-image first-card" id="first-sevenDiamond">
+                            <img src="./images/cards/diamonds/8_diamonds.svg" alt="8 of Diamonds" class="card-image first-card" id="first-eightDiamond">
+                            <img src="./images/cards/diamonds/9_diamonds.svg" alt="9 of Diamonds" class="card-image first-card" id="first-nineDiamond">
+                            <img src="./images/cards/diamonds/10_diamonds.svg" alt="10 of Diamonds" class="card-image first-card" id="first-tenDiamond">
+
+                            <!-- ============================================================ -->
+                            <img src="./images/cards/spades/a_spades.svg" alt="A of Spades" class="card-image first-card" id="first-aSpades">
+                            <img src="./images/cards/spades/2_spades.svg" alt="2 of Spades" class="card-image first-card" id="first-twoSpades">
+                            <img src="./images/cards/spades/3_spades.svg" alt="3 of Spades" class="card-image first-card" id="first-threeSpades">
+                            <img src="./images/cards/spades/4_spades.svg" alt="4 of Spades" class="card-image first-card" id="first-fourSpades">
+                            <img src="./images/cards/spades/5_spades.svg" alt="5 of Spades" class="card-image first-card" id="first-fiveSpades">
+                            <img src="./images/cards/spades/6_spades.svg" alt="6 of Spades" class="card-image first-card" id="first-sixSpades">
+                            <img src="./images/cards/spades/7_spades.svg" alt="7 of Spades" class="card-image first-card" id="first-sevenSpades">
+                            <img src="./images/cards/spades/8_spades.svg" alt="8 of Spades" class="card-image first-card" id="first-eightSpades">
+                            <img src="./images/cards/spades/9_spades.svg" alt="9 of Spades" class="card-image first-card" id="first-nineSpades">
+                            <img src="./images/cards/spades/10_spades.svg" alt="10 of Spades" class="card-image first-card" id="first-tenSpades">
+
+                            <!-- ============================================================ -->
+                            <img src="./images/cards/clubs/a_clubs.svg" alt="A of Clubs" class="card-image first-card" id="first-aClubs">
+                            <img src="./images/cards/clubs/2_clubs.svg" alt="2 of Clubs" class="card-image first-card" id="first-twoClubs">
+                            <img src="./images/cards/clubs/3_clubs.svg" alt="3 of Clubs" class="card-image first-card" id="first-threeClubs">
+                            <img src="./images/cards/clubs/4_clubs.svg" alt="4 of Clubs" class="card-image first-card" id="first-fourClubs">
+                            <img src="./images/cards/clubs/5_clubs.svg" alt="5 of Clubs" class="card-image first-card" id="first-fiveClubs">
+                            <img src="./images/cards/clubs/6_clubs.svg" alt="6 of Clubs" class="card-image first-card" id="first-sixClubs">
+                            <img src="./images/cards/clubs/7_clubs.svg" alt="7 of Clubs" class="card-image first-card" id="first-sevenClubs">
+                            <img src="./images/cards/clubs/8_clubs.svg" alt="8 of Clubs" class="card-image first-card" id="first-eightClubs">
+                            <img src="./images/cards/clubs/9_clubs.svg" alt="9 of Clubs" class="card-image first-card" id="first-nineClubs">
+                            <img src="./images/cards/clubs/10_clubs.svg" alt="10 of Clubs" class="card-image first-card" id="first-tenClubs">
+
+                            <img src="./images/cards/backCard.svg" alt="Back of the Card" class="card-image backCard" id="first-backCard">
+                        </div>
+                    </div>
+
+                     <!-- for secondCard Deck -->
+                    <div class="cards-item">
+                        <p class="cards-item-text">2ND CARD</p>
+                        <div class="cards-item-deck second-deck">
+                            
+                            <!-- ============================================================ -->
+                            <img src="./images/cards/hearts/a_hearts.svg" alt="A of Hearts" class="card-image second-card" id="second-aHeart">
+                            <img src="./images/cards/hearts/2_hearts.svg" alt="2 of Hearts" class="card-image second-card" id="second-twoHeart">
+                            <img src="./images/cards/hearts/3_hearts.svg" alt="3 of Hearts" class="card-image second-card" id="second-threeHeart">
+                            <img src="./images/cards/hearts/4_hearts.svg" alt="4 of Hearts" class="card-image second-card" id="second-fourHeart">
+                            <img src="./images/cards/hearts/5_hearts.svg" alt="5 of Hearts" class="card-image second-card" id="second-fiveHeart">
+                            <img src="./images/cards/hearts/6_hearts.svg" alt="6 of Hearts" class="card-image second-card" id="second-sixHeart">
+                            <img src="./images/cards/hearts/7_hearts.svg" alt="7 of Hearts" class="card-image second-card" id="second-sevenHeart">
+                            <img src="./images/cards/hearts/8_hearts.svg" alt="8 of Hearts" class="card-image second-card" id="second-eightHeart">
+                            <img src="./images/cards/hearts/9_hearts.svg" alt="9 of Hearts" class="card-image second-card" id="second-nineHeart">
+                            <img src="./images/cards/hearts/10_hearts.svg" alt="10 of Hearts" class="card-image second-card" id="second-tenHeart">
+
+                            <!-- ============================================================ -->
+                            <img src="./images/cards/diamonds/a_diamonds.svg" alt="A of Diamonds" class="card-image second-card" id="second-aDiamond">
+                            <img src="./images/cards/diamonds/2_diamonds.svg" alt="2 of Diamonds" class="card-image second-card" id="second-twoDiamond">
+                            <img src="./images/cards/diamonds/3_diamonds.svg" alt="3 of Diamonds" class="card-image second-card" id="second-threeDiamond">
+                            <img src="./images/cards/diamonds/4_diamonds.svg" alt="4 of Diamonds" class="card-image second-card" id="second-fourDiamond">
+                            <img src="./images/cards/diamonds/5_diamonds.svg" alt="5 of Diamonds" class="card-image second-card" id="second-fiveDiamond">
+                            <img src="./images/cards/diamonds/6_diamonds.svg" alt="6 of Diamonds" class="card-image second-card" id="second-sixDiamond">
+                            <img src="./images/cards/diamonds/7_diamonds.svg" alt="7 of Diamonds" class="card-image second-card" id="second-sevenDiamond">
+                            <img src="./images/cards/diamonds/8_diamonds.svg" alt="8 of Diamonds" class="card-image second-card" id="second-eightDiamond">
+                            <img src="./images/cards/diamonds/9_diamonds.svg" alt="9 of Diamonds" class="card-image second-card" id="second-nineDiamond">
+                            <img src="./images/cards/diamonds/10_diamonds.svg" alt="10 of Diamonds" class="card-image second-card" id="second-tenDiamond">
+
+                            <!-- ============================================================ -->
+                            <img src="./images/cards/spades/a_spades.svg" alt="A of Spades" class="card-image second-card" id="second-aSpades">
+                            <img src="./images/cards/spades/2_spades.svg" alt="2 of Spades" class="card-image second-card" id="second-twoSpades">
+                            <img src="./images/cards/spades/3_spades.svg" alt="3 of Spades" class="card-image second-card" id="second-threeSpades">
+                            <img src="./images/cards/spades/4_spades.svg" alt="4 of Spades" class="card-image second-card" id="second-fourSpades">
+                            <img src="./images/cards/spades/5_spades.svg" alt="5 of Spades" class="card-image second-card" id="second-fiveSpades">
+                            <img src="./images/cards/spades/6_spades.svg" alt="6 of Spades" class="card-image second-card" id="second-sixSpades">
+                            <img src="./images/cards/spades/7_spades.svg" alt="7 of Spades" class="card-image second-card" id="second-sevenSpades">
+                            <img src="./images/cards/spades/8_spades.svg" alt="8 of Spades" class="card-image second-card" id="second-eightSpades">
+                            <img src="./images/cards/spades/9_spades.svg" alt="9 of Spades" class="card-image second-card" id="second-nineSpades">
+                            <img src="./images/cards/spades/10_spades.svg" alt="10 of Spades" class="card-image second-card" id="second-tenSpades">
+
+                            <!-- ============================================================ -->
+                            <img src="./images/cards/clubs/a_clubs.svg" alt="A of Clubs" class="card-image second-card" id="second-aClubs">
+                            <img src="./images/cards/clubs/2_clubs.svg" alt="2 of Clubs" class="card-image second-card" id="second-twoClubs">
+                            <img src="./images/cards/clubs/3_clubs.svg" alt="3 of Clubs" class="card-image second-card" id="second-threeClubs">
+                            <img src="./images/cards/clubs/4_clubs.svg" alt="4 of Clubs" class="card-image second-card" id="second-fourClubs">
+                            <img src="./images/cards/clubs/5_clubs.svg" alt="5 of Clubs" class="card-image second-card" id="second-fiveClubs">
+                            <img src="./images/cards/clubs/6_clubs.svg" alt="6 of Clubs" class="card-image second-card" id="second-sixClubs">
+                            <img src="./images/cards/clubs/7_clubs.svg" alt="7 of Clubs" class="card-image second-card" id="second-sevenClubs">
+                            <img src="./images/cards/clubs/8_clubs.svg" alt="8 of Clubs" class="card-image second-card" id="second-eightClubs">
+                            <img src="./images/cards/clubs/9_clubs.svg" alt="9 of Clubs" class="card-image second-card" id="second-nineClubs">
+                            <img src="./images/cards/clubs/10_clubs.svg" alt="10 of Clubs" class="card-image second-card" id="second-tenClubs">
+
+                            <img src="./images/cards/backCard.svg" alt="Back of the Card" class="card-image backCard" id="second-backCard">
+                        </div>
+                    </div>
+
+                     <!-- for thirdCard Deck -->
+                    <div class="cards-item">
+                        <p class="cards-item-text">3RD CARD</p>
+                        <div class="cards-item-deck third-deck">
+                            
+                            <!-- ============================================================ -->
+                            <img src="./images/cards/hearts/a_hearts.svg" alt="A of Hearts" class="card-image third-card" id="third-aHeart">
+                            <img src="./images/cards/hearts/2_hearts.svg" alt="2 of Hearts" class="card-image third-card" id="third-twoHeart">
+                            <img src="./images/cards/hearts/3_hearts.svg" alt="3 of Hearts" class="card-image third-card" id="third-threeHeart">
+                            <img src="./images/cards/hearts/4_hearts.svg" alt="4 of Hearts" class="card-image third-card" id="third-fourHeart">
+                            <img src="./images/cards/hearts/5_hearts.svg" alt="5 of Hearts" class="card-image third-card" id="third-fiveHeart">
+                            <img src="./images/cards/hearts/6_hearts.svg" alt="6 of Hearts" class="card-image third-card" id="third-sixHeart">
+                            <img src="./images/cards/hearts/7_hearts.svg" alt="7 of Hearts" class="card-image third-card" id="third-sevenHeart">
+                            <img src="./images/cards/hearts/8_hearts.svg" alt="8 of Hearts" class="card-image third-card" id="third-eightHeart">
+                            <img src="./images/cards/hearts/9_hearts.svg" alt="9 of Hearts" class="card-image third-card" id="third-nineHeart">
+                            <img src="./images/cards/hearts/10_hearts.svg" alt="10 of Hearts" class="card-image third-card" id="third-tenHeart">
+
+                            <!-- ============================================================ -->
+                            <img src="./images/cards/diamonds/a_diamonds.svg" alt="A of Diamonds" class="card-image third-card" id="third-aDiamond">
+                            <img src="./images/cards/diamonds/2_diamonds.svg" alt="2 of Diamonds" class="card-image third-card" id="third-twoDiamond">
+                            <img src="./images/cards/diamonds/3_diamonds.svg" alt="3 of Diamonds" class="card-image third-card" id="third-threeDiamond">
+                            <img src="./images/cards/diamonds/4_diamonds.svg" alt="4 of Diamonds" class="card-image third-card" id="third-fourDiamond">
+                            <img src="./images/cards/diamonds/5_diamonds.svg" alt="5 of Diamonds" class="card-image third-card" id="third-fiveDiamond">
+                            <img src="./images/cards/diamonds/6_diamonds.svg" alt="6 of Diamonds" class="card-image third-card" id="third-sixDiamond">
+                            <img src="./images/cards/diamonds/7_diamonds.svg" alt="7 of Diamonds" class="card-image third-card" id="third-sevenDiamond">
+                            <img src="./images/cards/diamonds/8_diamonds.svg" alt="8 of Diamonds" class="card-image third-card" id="third-eightDiamond">
+                            <img src="./images/cards/diamonds/9_diamonds.svg" alt="9 of Diamonds" class="card-image third-card" id="third-nineDiamond">
+                            <img src="./images/cards/diamonds/10_diamonds.svg" alt="10 of Diamonds" class="card-image third-card" id="third-tenDiamond">
+
+                            <!-- ============================================================ -->
+                            <img src="./images/cards/spades/a_spades.svg" alt="A of Spades" class="card-image third-card" id="third-aSpades">
+                            <img src="./images/cards/spades/2_spades.svg" alt="2 of Spades" class="card-image third-card" id="third-twoSpades">
+                            <img src="./images/cards/spades/3_spades.svg" alt="3 of Spades" class="card-image third-card" id="third-threeSpades">
+                            <img src="./images/cards/spades/4_spades.svg" alt="4 of Spades" class="card-image third-card" id="third-fourSpades">
+                            <img src="./images/cards/spades/5_spades.svg" alt="5 of Spades" class="card-image third-card" id="third-fiveSpades">
+                            <img src="./images/cards/spades/6_spades.svg" alt="6 of Spades" class="card-image third-card" id="third-sixSpades">
+                            <img src="./images/cards/spades/7_spades.svg" alt="7 of Spades" class="card-image third-card" id="third-sevenSpades">
+                            <img src="./images/cards/spades/8_spades.svg" alt="8 of Spades" class="card-image third-card" id="third-eightSpades">
+                            <img src="./images/cards/spades/9_spades.svg" alt="9 of Spades" class="card-image third-card" id="third-nineSpades">
+                            <img src="./images/cards/spades/10_spades.svg" alt="10 of Spades" class="card-image third-card" id="third-tenSpades">
+
+                            <!-- ============================================================ -->
+                            <img src="./images/cards/clubs/a_clubs.svg" alt="A of Clubs" class="card-image third-card" id="third-aClubs">
+                            <img src="./images/cards/clubs/2_clubs.svg" alt="2 of Clubs" class="card-image third-card" id="third-twoClubs">
+                            <img src="./images/cards/clubs/3_clubs.svg" alt="3 of Clubs" class="card-image third-card" id="third-threeClubs">
+                            <img src="./images/cards/clubs/4_clubs.svg" alt="4 of Clubs" class="card-image third-card" id="third-fourClubs">
+                            <img src="./images/cards/clubs/5_clubs.svg" alt="5 of Clubs" class="card-image third-card" id="third-fiveClubs">
+                            <img src="./images/cards/clubs/6_clubs.svg" alt="6 of Clubs" class="card-image third-card" id="third-sixClubs">
+                            <img src="./images/cards/clubs/7_clubs.svg" alt="7 of Clubs" class="card-image third-card" id="third-sevenClubs">
+                            <img src="./images/cards/clubs/8_clubs.svg" alt="8 of Clubs" class="card-image third-card" id="third-eightClubs">
+                            <img src="./images/cards/clubs/9_clubs.svg" alt="9 of Clubs" class="card-image third-card" id="third-nineClubs">
+                            <img src="./images/cards/clubs/10_clubs.svg" alt="10 of Clubs" class="card-image third-card" id="third-tenClubs">
+
+                            <img src="./images/cards/backCard.svg" alt="Back of the Card" class="card-image backCard" id="third-backCard">
+                        </div>
+                    </div>
+                </div>
+                <div class="total__cards">
+                    <p class="total__cards-text">TOTAL CARDS:</p>
+                    <p class="total__cards-score" id="totalCards-el">0</p>
+                </div>
+            </section>
+
+            <section class="score section">
+                <p class="score__header-text">SCORE BOARD</p>
+                <div class="score__content">
+                    <div class="user">
+                        <img src="./images/user_avatar.svg" alt="User Avatar" class="user__avatar">
+                        <p class="user__text">YOU</p>
+                    </div>
+                    <div class="score__container">
+                        <p class="score-user-text score-text" id="userScore-el">0</p>
+                        <p class="score-dash score-text">-</p>
+                        <p class="score-computer-text score-text" id="computerScore-el">0</p>
+                    </div>
+                    <div class="computer">
+                        <img src="./images/bot_avatar.svg" alt="Computer Avatar" class="computer__avatar">
+                        <p class="computer__text">COMPUTER</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="buttons section">
+                <button class="draw__btn" onclick="drawCard()">DRAW CARDS</button>
+                <button class="fight__btn" onclick="fightBtn()" disabled>HIT</button>
+            </section>
+        </div>
+
+        <div class="message__box">
+            <p class="message__box-text" id="messageboxText-El">YOU WIN</p>
+            <div class="message__box-score">
+                <div class="user__content">
+                    <img src="./images/user_avatar.svg" alt="User Avatar" class="user__content-avatar">
+                    <p class="user__content-text">YOU GOT</p>
+                    <p class="user__content-score" id="userContentScore">0</p>
+                </div>
+                <div class="bot__content">
+                    <img src="./images/bot_avatar.svg" alt="Computer Avatar" class="bot__content-avatar">
+                    <p class="bot__content-text">BOT GOT</p>
+                    <p class="bot__content-score" id="botContentScore">0</p>
+                </div>
+            </div>
+            <button class="ok__btn" onclick="okBtn()">OK</button>
+        </div>
+
+        <div class="message__card message__card-user">
+            <div class="message__card-wrapper">
+                <img src="./images/userWhole.png" alt="User Avatar" class="message__card-image" id="user__wholeAvatar">
+                <p class="message__card-text">VICTORY</p>
+                <button class= "new__game user-text" onclick="newGame()">NEW GAME</button>
+                <div class="message__card-bg user-bg">
+                </div>
+            </div>
+        </div>
+
+        <div class="message__card message__card-bot">
+            <div class="message__card-wrapper">
+                <img src="./images/botWhole.png" alt="User Avatar" class="message__card-image" id="user__wholeAvatar">
+                <p class="message__card-text">DEFEAT</p>
+                <button class= "new__game bot-text" onclick="newGame()">NEW GAME</button>
+                <div class="message__card-bg bot-bg">
+                </div>
+            </div>
+        </div>
+
+        <div class="welcome__card driveInBottom">
+            <p class="welcome__text welcome__head">This game is created and inspired from the classic Lucky 9 Card Game but with an easier and quick step to win. No bet and bankers, just get the first 10 points by winning every round to beat the bot and win the game.
+            </p>
+            <p class="welcome__text welcome__title">HOW TO PLAY</p>
+            <ul class="welcome__text welcome__list">
+                <li class="welcome__lists">Draw your first 2 cards, it is randomly distributed.</li>
+
+                <li class="welcome__lists">If you luckily get a total of nine from your 2 cards, for example, you got 2 of spades and 7 of hearts which means you got <span class="highlight">Lucky 9!</span> Automatically you win the round and get <span class= "highlight">1  point</span>.</li>
+
+                <li class="welcome__lists">If your 2 cards total a two-digit number, the last digit counts as the value of the hand.
+                For example: <br><span class="highlight">8 + 4 = 14 which counts as 4</span>. <br><span class="italic sml-font">Take note that cards A, 2, 3, 4, 5, 6, 7, 8,and 9 are all counted according to their numerical value. Cards 10 have novalue.</span>
+                </li>
+
+                <li class="welcome__lists">If you don't get lucky 9 you can either make a <span class="highlight">"hit"</span> or draw a <span class="highlight">third card</span>. This where your strategy comes to play.</li>
+
+                <li class="welcome__lists"><span class="highlight">Third draw</span> can become much less favorable after a "hit". For example, if your first two cards have a total of <span class="highlight">4</span> and the third card you draw is the <span class="highlight">8 of diamonds</span>, your hand total becomes <span class="highlight">12 which counts as 2</span>.
+                </li>
+
+                <li class="welcome__lists">To win the round you must get <span class="highlight">Lucky 9</span> or your total card is <span class="highlight">much higher</span> than the bot total card.</li>
+
+                <li class="welcome__lists">Another round will be played until you or the bot get the first 10 points and be the lucky winner.</li>
+
+            </ul>
+
+            <button class="welcome__btn" onclick="welcomeBtn()">PLAY</button>
+        </div>
+    </main>
+
+    <footer class="attribute">
+        <a href="#" class="attribute-link">Version 1. Designed & Built by Mark Ian Reyes</a>
+    </footer>
+
+</body>
+</html>
