@@ -1,0 +1,39 @@
+body {
+    // background-image: url("/images/bg-desktop.svg");
+    // background-repeat: no-repeat;
+    background: linear-gradient(110.83deg, #629A3F 14.73%, #3E711F 55.42%);
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.header,
+.main{
+    width: 90%;
+    max-width: 704px;
+    margin: 0 auto;
+}
+
+.header {
+    margin: 2.5em auto 0 auto;
+
+    &__title {
+        margin: .3em 0;
+    }
+}
+
+.ribbon__container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__image {
+        position: absolute;
+    }
+
+    &-text {
+        position: absolute;
+        top: 25%;
+    }
+}

@@ -1,0 +1,81 @@
+
+@media (min-width:500px) {
+
+    body {
+        background-size: cover;
+        height: 900px;
+    }
+    
+    .header {
+    
+        &__title {
+            margin: .3em 0;
+        }
+    }
+
+    // ===================================================
+    // ===================================================
+
+    .section {
+        width: 92%;
+    }
+
+    .cards-container {
+        margin-top: 1.2em;
+        margin-bottom: 1em;
+    }
+
+    .cards{
+        justify-content: space-around;
+    
+        &-item {
+            width: 8.81em;
+            height: 13em;
+        }
+    
+        &-item-text {
+            padding: .3em 0;
+        }
+    }
+
+    .card-image {
+        width: 6.87em;
+        margin: .6em .5em .4em .5em;
+    }
+
+    // ===================================================
+    // ===================================================
+
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 386.74px;
+    }
+    
+    .draw__btn,
+    .fight__btn {
+        margin: .3em;
+    }
+
+    // ===================================================
+    // ===================================================
+
+    .user__content-avatar,
+    .bot__content-avatar {
+       width: 12.44em;
+    }
+
+    .message__box-text {
+        margin: 1rem auto;
+    }
+
+    .ok__btn {
+        margin: 1rem 0 2rem 0;
+    }
+}
+
+
+// .attribute-link {
+//     // bottom: 5em;
+// }

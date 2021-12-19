@@ -1,0 +1,7 @@
+@use '../abstract/index_abstract' as a;
+@forward '../components/header';
+@forward '../components/main_section';
+@forward '../components/message_card';
+@forward '../components/welcome_card';
+@forward '../components/breakpoints';
+@forward '../components/animations';

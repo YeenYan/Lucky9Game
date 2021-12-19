@@ -1,0 +1,188 @@
+// .card-image {
+//     display: none;
+// }
+
+.first-card {
+    display: none;
+}
+
+.second-card {
+    display: none;
+}
+
+.third-card {
+    display: none;
+}
+
+.backCard {
+    display: block;
+}
+
+.message__box {
+    visibility: hidden;
+}
+
+.container {
+  visibility: hidden;
+}
+
+// .header__title {
+//   opacity: 100;
+// }
+
+// ===================================================
+// ===================================================
+
+.flipInY, .flipInYCopy{
+    -webkit-animation-name: flipInY;
+    animation-name: flipInY;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s; }
+  
+  @keyframes flipInY {
+    from {
+      opacity: 0;
+      -webkit-transform: perspective(400px) rotateY(90deg) scale3d(1.2, 1.2, 1.2);
+      transform: perspective(400px) rotateY(90deg) scale3d(1.2, 1.2, 1.2); }
+    50% {
+      opacity: 1;
+      -webkit-animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+      animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+      -webkit-transform: perspective(400px) rotateY(-20deg) scale3d(1, 1, 1);
+      transform: perspective(400px) rotateY(-20deg) scale3d(1, 1, 1); }
+    to {
+      -webkit-transform: perspective(400px) rotateY(0deg) scale3d(1, 1, 1);
+      transform: perspective(400px) rotateY(0deg) scale3d(1, 1, 1); } }
+
+// ===================================================
+// ===================================================
+
+.popIn {
+    -webkit-animation-name: popIn;
+    animation-name: popIn;
+    -webkit-animation-duration: 500ms;
+    animation-duration: 500ms;
+  }
+  
+  @keyframes popIn {
+    0% {
+      -webkit-transform: scale3d(0, 0, 0);
+      transform: scale3d(0, 0, 0);
+      opacity: 0; }
+    20% {
+      opacity: 1; }
+    40% {
+      -webkit-animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+      animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+      -webkit-transform: scale3d(1.08, 1.08, 1.08);
+      transform: scale3d(1.08, 1.08, 1.08); }
+    60% {
+      -webkit-animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+      animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1); }
+    80% {
+      -webkit-animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+      animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+      -webkit-transform: scale3d(1.03, 1.03, 1.03);
+      transform: scale3d(1.03, 1.03, 1.03); }
+    100% {
+      -webkit-animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1); }
+    }
+
+// ===================================================
+// ===================================================
+
+  .driveInBottom {
+    -webkit-animation-name: driveInBottom;
+    animation-name: driveInBottom;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+  }
+  
+  @keyframes driveInBottom {
+    0% {
+      opacity: 0;
+      -webkit-animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+      animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+      -webkit-transform: translate3d(0, 300px, 0);
+      transform: translate3d(0, 300px, 0); }
+    30% {
+      opacity: 1; }
+    60% {
+      -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+      animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+      -webkit-transform: translate3d(0, -30px, 0);
+      transform: translate3d(0, -30px, 0); }
+    100% {
+      -webkit-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+      animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0); } }
+
+// ===================================================
+// ===================================================
+
+.unfold {
+  -webkit-animation-name: unfold;
+  animation-name: unfold;
+  -webkit-animation-duration: 850ms;
+  animation-duration: 850ms;
+}
+
+@keyframes unfold {
+  0% {
+    opacity: 0;
+    -webkit-animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    -webkit-transform: scale3d(0, 0, 0);
+    transform: scale3d(0, 0, 0); }
+  30% {
+    opacity: 1;
+    -webkit-animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    -webkit-transform: scale3d(0.4, 0.4, 1);
+    transform: scale3d(0.4, 0.4, 1); }
+  60% {
+    -webkit-animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    -webkit-transform: scale3d(0.4, 1, 1);
+    transform: scale3d(0.4, 1, 1); }
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); 
+  } 
+}
+
+
+// ===================================================
+// ===================================================
+
+.pulsate {
+  -webkit-animation-name: pulsate;
+  animation-name: pulsate;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+@keyframes pulsate {
+  0% {
+    -webkit-animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); }
+  50% {
+    -webkit-transform: scale3d(0.8, 0.8, 0.8);
+    transform: scale3d(0.8, 0.8, 0.8); }
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); } }

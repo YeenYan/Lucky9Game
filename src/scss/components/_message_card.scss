@@ -1,0 +1,89 @@
+.message__box {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    
+    width: 90%;
+    max-width: 32.25em;
+    margin: 1em 0;
+    border-radius: 10px;
+}
+
+.message__box-score {
+    display: flex;
+    justify-content: space-around;
+}
+
+.user__content-avatar,
+.bot__content-avatar {
+    width: 7.44rem;
+}
+
+.message__box-text {
+    width: 70%;
+    max-width: 348px;
+    margin: .5rem auto;
+    border-radius: 5px;
+}
+
+.ok__btn {
+    border: none;
+    border-radius: 5px;
+    padding: 0 2.3em;
+    margin: .8rem 0 .5rem 0;
+}
+
+// =====================================================
+
+.message__card {
+    position: absolute;
+    top: -20px;
+    width: 100%;
+    max-width: 516.65px;
+    height: 100%;
+    max-height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message__card-bg {
+    z-index: -3;
+    position: absolute;
+    top: 55px;
+    width: 100%;
+    height: 85%;
+    justify-self: flex-end;
+    max-height: 800px;
+    border-radius: 5px;
+    padding-top: 200px;
+}
+
+.message__card-wrapper {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.message__card-image {
+    filter: drop-shadow(10px 0px 4px rgba(0, 0, 0, .2));
+    width: 100%;
+    max-width: 350px;
+}
+
+.new__game {
+    border: none;
+    border-radius: 50px;
+    padding: .5rem 4rem;
+}
+
+.message__card-user {
+    visibility: hidden;
+}
+
+.message__card-bot {
+    visibility: hidden;
+}
