@@ -1,0 +1,154 @@
+$dark-brown: #3D1501;
+$brown: #602202;
+$light-brown: #E18E44;
+$very-light-brown: #FECE71;
+
+$green: #409A21;
+$light-green: #3DCE71;
+$red: #8E1321;
+$light-red: #F24E4B;
+
+$primary-gradient: linear-gradient(160.97deg, #953900 12.82%, #C89B14 87.18%);
+$light-gradient: linear-gradient(90deg, #FFFE9E 0%, #FAB865 100%);
+
+
+
+.header__title {
+    color: #fff;
+}
+.ribbon__container-text {
+    color: $dark-brown;
+}
+
+// ===================================================
+// ===================================================
+
+.container {
+    background: $primary-gradient;
+}
+
+.cards-container {
+    background: $light-gradient;
+}
+
+.cards{
+    display: flex;
+
+    &-item {
+        background-color: $brown;
+
+        &-text {
+            color: #fff;
+            background-color: $dark-brown;
+        }
+    }
+}
+
+.total__cards {
+    color: $dark-brown;
+}
+
+// ===================================================
+// ===================================================
+
+.score {
+    background: $light-gradient;
+}
+
+.score__header-text {
+    color: #fff;
+    background-color: $dark-brown;
+}
+
+.user,
+.computer,
+.score-text {
+    color: $dark-brown;
+}
+
+// ===================================================
+// ===================================================
+
+.draw__btn {
+    color: #fff;
+    background-color: $green;
+}
+
+.fight__btn {
+    color:#fff;
+    background-color: $red;
+}
+// ===================================================
+// ===================================================
+
+.message__box {
+    background-color: $very-light-brown;
+    border: 8px solid $light-brown;
+}
+
+.message__box-text {
+    background-color: $light-green;
+    color: #fff;
+}
+
+.user__content-text,
+.bot__content-text,
+.user__content-score,
+.bot__content-score{
+    color: $dark-brown;
+}
+
+.ok__btn {
+    background-color: #fff;
+    color: $light-brown;
+}
+
+.user-bg {
+    background-color: $light-green;
+}
+
+.bot-bg {
+    background-color: $light-red;
+}
+
+.message__card-text {
+    color: #fff;
+}
+
+.user-text {
+    color: $light-green;
+}
+
+.bot-text {
+    color: $light-red;
+}
+// ===================================================
+// ===================================================
+
+.welcome__card {
+    background-color: #fff;
+}
+.welcome__text {
+    color: $dark-brown;
+}
+
+.welcome__title {
+    color: $light-brown;
+}
+
+.welcome__btn {
+    // background: $light-gradient;
+    background-color: $light-brown;
+    color: #fff;
+}
+
+.highlight {
+    color: $brown;
+}
+
+// ===================================================
+// ===================================================
+
+.attribute-link {
+    color: #fff;
+}
