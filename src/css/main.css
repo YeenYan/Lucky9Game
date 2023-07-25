@@ -137,15 +137,15 @@ body {
 }
 
 .ribbon__container-text {
-  color: #3D1501;
+  color: #3d1501;
 }
 
 .container {
-  background: linear-gradient(160.97deg, #953900 12.82%, #C89B14 87.18%);
+  background: linear-gradient(160.97deg, #953900 12.82%, #c89b14 87.18%);
 }
 
 .cards-container {
-  background: linear-gradient(90deg, #FFFE9E 0%, #FAB865 100%);
+  background: linear-gradient(90deg, #fffe9e 0%, #fab865 100%);
 }
 
 .cards {
@@ -156,45 +156,45 @@ body {
 }
 .cards-item-text {
   color: #fff;
-  background-color: #3D1501;
+  background-color: #3d1501;
 }
 
 .total__cards {
-  color: #3D1501;
+  color: #3d1501;
 }
 
 .score {
-  background: linear-gradient(90deg, #FFFE9E 0%, #FAB865 100%);
+  background: linear-gradient(90deg, #fffe9e 0%, #fab865 100%);
 }
 
 .score__header-text {
   color: #fff;
-  background-color: #3D1501;
+  background-color: #3d1501;
 }
 
 .user,
 .computer,
 .score-text {
-  color: #3D1501;
+  color: #3d1501;
 }
 
 .draw__btn {
   color: #fff;
-  background-color: #409A21;
+  background-color: #409a21;
 }
 
 .fight__btn {
   color: #fff;
-  background-color: #8E1321;
+  background-color: #8e1321;
 }
 
 .message__box {
-  background-color: #FECE71;
-  border: 8px solid #E18E44;
+  background-color: #fece71;
+  border: 8px solid #e18e44;
 }
 
 .message__box-text {
-  background-color: #3DCE71;
+  background-color: #3dce71;
   color: #fff;
 }
 
@@ -202,20 +202,20 @@ body {
 .bot__content-text,
 .user__content-score,
 .bot__content-score {
-  color: #3D1501;
+  color: #3d1501;
 }
 
 .ok__btn {
   background-color: #fff;
-  color: #E18E44;
+  color: #e18e44;
 }
 
 .user-bg {
-  background-color: #3DCE71;
+  background-color: #3dce71;
 }
 
 .bot-bg {
-  background-color: #F24E4B;
+  background-color: #f24e4b;
 }
 
 .message__card-text {
@@ -223,11 +223,11 @@ body {
 }
 
 .user-text {
-  color: #3DCE71;
+  color: #3dce71;
 }
 
 .bot-text {
-  color: #F24E4B;
+  color: #f24e4b;
 }
 
 .welcome__card {
@@ -235,15 +235,15 @@ body {
 }
 
 .welcome__text {
-  color: #3D1501;
+  color: #3d1501;
 }
 
 .welcome__title {
-  color: #E18E44;
+  color: #e18e44;
 }
 
 .welcome__btn {
-  background-color: #E18E44;
+  background-color: #e18e44;
   color: #fff;
 }
 
@@ -256,9 +256,9 @@ body {
 }
 
 body {
-  background: linear-gradient(110.83deg, #629A3F 14.73%, #3E711F 55.42%);
+  background: linear-gradient(110.83deg, #629a3f 14.73%, #3e711f 55.42%);
   height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
 }
 
@@ -566,12 +566,12 @@ body {
   }
 
   .draw__btn,
-.fight__btn {
+  .fight__btn {
     margin: 0.3em;
   }
 
   .user__content-avatar,
-.bot__content-avatar {
+  .bot__content-avatar {
     width: 12.44em;
   }
 
@@ -607,7 +607,8 @@ body {
   visibility: hidden;
 }
 
-.flipInY, .flipInYCopy {
+.flipInY,
+.flipInYCopy {
   -webkit-animation-name: flipInY;
   animation-name: flipInY;
   -webkit-animation-duration: 1s;
